@@ -26,9 +26,12 @@ public class Main {
         Book bookRU = new Book("Козлёнок в молоке", author2, 1997);
 
 
+        System.out.println(bookUS);
+        System.out.println(bookRU);
+        /* поменяем дату публикации российской книге */
+        bookRU.setPublished(1999);
+        /* проверим */
+        System.out.println(bookRU);
 
-
-
-//        System.out.println("Hello world!");
     }
 }
